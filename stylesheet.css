@@ -1,0 +1,124 @@
+body {
+  font-family: small arial,sans-serif;
+  font-size: 13px;
+}
+
+.legal, .bookmark {
+  font-size: 11px;
+}
+
+.legal {
+  margin-top: 20px;
+}
+
+.bookmark {
+  border-bottom: 1px solid #E6E6E8;
+  padding: 14px 0 14px 20px;
+  letter-spacing: 0.05em;
+  margin: 0 -10px;
+  position: fixed;
+  z-index: 1;
+  background: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bookmark a:link, .legal a:link {
+  color: #7899C1;
+}
+
+.bookmark a, .legal a {
+  text-decoration: none;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 12px;
+  margin-top: 50px;
+}
+
+.top a, .top i{
+  padding: 0 10px;
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+.top img {
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-right: -10px;
+  margin-left: 10px;
+}
+
+i:last-of-type {
+  padding-right: 12px;
+}
+
+.image, .search, .legal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  padding-top: 40px;
+}
+
+.search {
+  display: flex;
+  padding: 30px 0 50px 0;
+  font-size: 24px;
+}
+
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* blue square container */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* something wrong here */
+
+.flex-div {
+  background-color: #F4F4F4;
+  color: white;
+  margin: 0 0 15px 0;
+  width: 23%;
+  height: 130px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 2px -2px #E6E6E8;
+  border: 1px solid #E6E6E8;
+}
+
+input[type=text] {
+  width: 55%;
+  height: 45px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #E6E6E8;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 4px 2px -2px #E6E6E8;
+}
+
+#search {
+  background: url(Microphone_1.png) right no-repeat;
+  background-size: 24px 24px;
+  padding: 17px;
+  background-position: 97%;
+}
